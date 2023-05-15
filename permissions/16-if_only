@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown hello:vincent guillaume -u 
+sudo chown if hello:vincent guillaume 
