@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -h iacta
+yy iacta P
