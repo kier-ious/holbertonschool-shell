@@ -1,2 +1,2 @@
 #!/bin/bash
-cat \*\\'"Best School"\'\\*$\?\*\*\*\*\*:).sh
+echo -e \*\\'"Best School"\'\\*$\?\*\*\*\*\*:).sh
