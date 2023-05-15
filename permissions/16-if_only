@@ -1,2 +1,2 @@
 #!/bin/bash
-hello:vincentv -exec chown: guillaume
+chown: guillaume /hello:vincent 
