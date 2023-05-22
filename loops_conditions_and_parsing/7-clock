@@ -2,14 +2,14 @@
 #Display the time for 12 hours and 59 minutes
 
 h=0
+m=0
 while [ $h -le 13 ]
-do
-	echo “Hour=$h”
-m=1
-while [ $m -le 59 ] 
-do
-	echo “$m"
-	(( m++ ))
-done
-	(( h++ ))
+do 
+	if [ $m -le 60 ]
+	then (( m+1 ))
+		echo $m 
+	elif [ $m = 60 ] 
+	then ( $h +1 )
+		m=0
+	fi
 done
