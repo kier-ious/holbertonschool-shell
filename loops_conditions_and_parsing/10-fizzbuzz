@@ -1,6 +1,5 @@
 #!/usr/bin/env bash 
 #Write a Bash script that displays numbers from 1 to 100.
-#FizzBuzz
 
 for i in {1..100}
 do
@@ -9,7 +8,7 @@ do
 	echo "FizzBuzz"
 	elif [ $((i%5)) -eq 0 ]
 	then 
-		echo "Fizz"
+	echo "Fizz"
 	elif [ $((i%5)) -eq 0 ]
 	then
 	echo "Buzz"
