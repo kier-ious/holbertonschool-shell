@@ -3,4 +3,4 @@
 
 # shellcheck disable=SC2009
 
-ps -aux -f
+ps -ef | grep bash 
