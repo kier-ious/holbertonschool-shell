@@ -9,7 +9,6 @@ cleanup() {
 	echo "Deleting PID file and terminationg the script"
 	rm "$pid_file"
 	exit
-
 }
 
 # Funtion to handle SIGINT signal
@@ -19,6 +18,7 @@ handle_interrupt() {
 
 # Register signal handlers
 	trap cleanup SIGTERM SIGQUIT
+		echo "I hate the kill command "
 	trap handle_interrupt SIGINT
 
 # Create PID file
