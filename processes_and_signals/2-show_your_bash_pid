@@ -1,5 +1,5 @@
 #!/usr/bin/env bash 
-#write a bash script that displays lines containing the bash word
+#write a Bash script that displays lines containing the bash word
 # shellcheck disable=SC2009
 
 ps -aux -f
