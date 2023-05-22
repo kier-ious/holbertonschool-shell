@@ -10,6 +10,6 @@ do
 		echo $m 
 	elif [ $m = 60 ] 
 	then ( $h +1 )
-		m=0
+	elif	m=0
 	fi
 done
