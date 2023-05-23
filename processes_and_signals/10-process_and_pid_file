@@ -18,14 +18,15 @@ handle_interrupt() {
 
 # Register signal handlers
 	trap cleanup SIGTERM SIGQUIT
-		echo "I hate the kill command "
 	trap handle_interrupt SIGINT
+               echo "I hate the kill command"
+
 
 # Create PID file
 	echo "$$" > "$pid_file"
 
 # Display messages indenfinitly
-	echo "To infinityand beyond!"
+	echo "To infinity and beyond!"
 while true
 do
 	sleep 1
